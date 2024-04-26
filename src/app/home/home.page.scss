@@ -4,24 +4,31 @@
   position: absolute;
   left: 0;
   right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
+  margin-top: 30px;
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
+  .input-1.sc-ion-input-md-h.sc-ion-input-md-s.md.input-fill-outline.input-label-placement-floating {
+    position: absolute;
+    width: 350px;
+    margin-bottom: 10px;
+    left: 616px;
+  }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
+  .input-2.sc-ion-input-md-h.sc-ion-input-md-s.md.input-fill-outline.input-label-placement-floating {
+    position: absolute;
+    width: 350px;
+    margin-top: 32px;
+    left: 616px;
+  }
 
-  color: #8c8c8c;
+  .button-1 {
+    position: absolute;
+    margin-top: 100px;
+    left: 726px;
+  }
 
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
+  .button-2 {
+    position: absolute;
+    margin-top: 145px;
+    left: 714px;
+  }
 }
